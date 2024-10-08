@@ -1,5 +1,5 @@
-import video3 from "../assets/video3.mp4"
-import video4 from "../assets/video4.mp4"
+import video1 from "../assets/video1.mp4"
+import video2 from "../assets/video2.mp4"
 
 const HeroSection = () => {
     return (
@@ -33,7 +33,7 @@ const HeroSection = () => {
                     playsinline
                     className="rounded-lg w-1/2 border border-white-700 shadow-sm shadow-white-400 mx-2 my-4"
                 >
-                    <source src={video4} type="video/mp4" />
+                    <source src={video2} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <video
@@ -43,7 +43,7 @@ const HeroSection = () => {
                     playsinline
                     className="rounded-lg w-1/2 border border-white-700 shadow-sm shadow-white-400 mx-2 my-4"
                 >
-                    <source src={video3} type="video/mp4" />
+                    <source src={video1} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
