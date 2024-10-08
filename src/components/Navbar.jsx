@@ -16,7 +16,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
                         {/* <img className="h-10 w-10 mr-2" src={logo} alt="Logo" /> */}
-                        <span className="text-xl font-bold bg-gradient-to-r from-blue-500 to-red-800 text-transparent bg-clip-text">
+                        <span className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-red-800 text-transparent bg-clip-text">
                             HESOID TECHNOLOGIES
                         </span>
                     </div>

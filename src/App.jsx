@@ -3,8 +3,9 @@ import HeroSection from "./components/HeroSection"
 import Expertise from "./components/Expertise"
 import Services from "./components/Services"
 import Footer from "./components/Footer"
-import Pricing from "./components/Pricing"
+
 import Testimonials from "./components/Testimonials"
+import Technologies from "./components/Technologies"
 import { AboutUs } from "./components/AboutUs"
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
                 <HeroSection />
                 <Services />
                 <Expertise />
-                <Pricing />
+                <Technologies />
                 <Testimonials />
                 <AboutUs />
                 {/* <Footer /> */}
