@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar"
 import HeroSection from "./components/HeroSection"
-import FeatureSection from "./components/FeatureSection"
-import Workflow from "./components/Workflow"
+import Expertise from "./components/Expertise"
+import Services from "./components/Services"
 import Footer from "./components/Footer"
 
 import Testimonials from "./components/Testimonials"
 import Technologies from "./components/Technologies"
+import { AboutUs } from "./components/AboutUs"
 
 const App = () => {
     return (
@@ -13,11 +14,12 @@ const App = () => {
             <Navbar />
             <div className="max-w-7xl mx-auto pt-20 px-6">
                 <HeroSection />
-                <FeatureSection />
-                <Workflow />
+                <Services />
+                <Expertise />
                 <Technologies />
                 <Testimonials />
-                <Footer />
+                <AboutUs />
+                {/* <Footer /> */}
             </div>
         </>
     )

@@ -1,123 +1,86 @@
-import { BotMessageSquare } from "lucide-react"
-import { BatteryCharging } from "lucide-react"
-import { Fingerprint } from "lucide-react"
+import { Code, PlugZap } from "lucide-react"
 import { ShieldHalf } from "lucide-react"
-import { PlugZap } from "lucide-react"
+import { Cpu } from "lucide-react"
 import { GlobeLock } from "lucide-react"
-
-import user1 from "../assets/profile-pictures/user1.jpg"
-import user2 from "../assets/profile-pictures/user2.jpg"
-import user3 from "../assets/profile-pictures/user3.jpg"
-import user4 from "../assets/profile-pictures/user4.jpg"
-import user5 from "../assets/profile-pictures/user5.jpg"
-import user6 from "../assets/profile-pictures/user6.jpg"
+import { AppWindow } from "lucide-react"
+import { Workflow } from "lucide-react"
+import stanislav from "../assets/profile-pictures/stanislav.jpg"
 
 export const navItems = [
-    { label: "Our Services", href: "#" },
-    { label: "Workflow", href: "#" },
-    { label: "Testimonials", href: "#" },
-    { label: "Vision & Misson", href: "#" },
-    { label: "About us", href: "#" },
+    { label: "Services", href: "#services" },
+    { label: "Expertise", href: "#expertise" },
+    { label: "Testimonials", href: "#testimonials" },
+    { label: "About us", href: "#aboutus" },
+    { label: "Contact", href: "#contact" },
 ]
 
 export const testimonials = [
     {
-        user: "Hari Doe",
-        company: "Stellar Solutions",
-        image: user1,
-        text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
-    },
-    {
-        user: "Jane Smith",
-        company: "blue Horizon Technologies",
-        image: user2,
-        text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
-    },
-    {
-        user: "David Johnson",
-        company: "Quantum Innovations",
-        image: user3,
-        text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
-    },
-    {
-        user: "Ronee Brown",
-        company: "Fusion Dynamics",
-        image: user4,
-        text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
-    },
-    {
-        user: "Michael Wilson",
-        company: "Visionary Creations",
-        image: user5,
-        text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
-    },
-    {
-        user: "Emily Davis",
-        company: "Synergy Systems",
-        image: user6,
-        text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+        user: "Stanislav Skakun",
+        company: "Founder, Biodata",
+        image: stanislav,
+        text: `Hesoid delivered exceptional service, consistently meeting deadlines while providing innovative solutions to our most complex business challenges. Their team's professionalism and expertise 
+        have been instrumental in the success of our projects.`,
     },
 ]
 
-export const features = [
+export const expertise = [
     {
-        icon: <BotMessageSquare />,
-        text: "Drag-and-Drop Interface",
+        icon: <Code />,
+        text: "Large-scale product codebases",
         description:
-            "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
-    },
-    {
-        icon: <Fingerprint />,
-        text: "Multi-Platform Compatibility",
-        description:
-            "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
-    },
-    {
-        icon: <ShieldHalf />,
-        text: "Built-in Templates",
-        description:
-            "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
-    },
-    {
-        icon: <BatteryCharging />,
-        text: "Real-Time Preview",
-        description:
-            "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
-    },
-    {
-        icon: <PlugZap />,
-        text: "Collaboration Tools",
-        description:
-            "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+            "We have extensive experience handling complex, large-scale product codebases efficiently",
     },
     {
         icon: <GlobeLock />,
-        text: "Analytics Dashboard",
+        text: "High-security web applications",
         description:
-            "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+            "Our team specializes in building highly secure web applications, with strong authentication and authorization measures",
+    },
+    {
+        icon: <ShieldHalf />,
+        text: "Developing secure, compliant applications",
+        description:
+            "We build applications with top-tier security while adhering to HIPAA compliance standards.",
+    },
+    {
+        icon: <Cpu />,
+        text: "Full-stack deployment",
+        description: `Our team can deploy full-stack applications—Frontend (React) and Backend (Spring Boot,Django, Node.js)—on major cloud platforms like AWS, Azure, and GCP, 
+        while maintaining consistent CI/CD pipelines and also with docker containers. `,
+    },
+    {
+        icon: <AppWindow />,
+        text: "Healthcare and E-commerce",
+        description:
+            "We have proven expertise in developing both healthcare and E-commerce applications.",
+    },
+    {
+        icon: <Workflow />,
+        text: "Agile Development Methodology",
+        description:
+            "We excel in utilizing Agile development methodologies, ensuring adaptability and continuous delivery through regular sprints and client feedback.",
     },
 ]
 
-export const checklistItems = [
+export const servicesItems = [
     {
-        title: "Code merge made easy",
+        title: "Web Development",
         description:
-            "Track the performance of your VR apps and gain insights into user behavior.",
+            "Our web development expertise spans frontend, backend, UI/UX, database management, DevOps, and cloud solutions, enabling us to deliver fast, secure, and scalable applications from start to finish.",
     },
     {
-        title: "Review code without worry",
-        description:
-            "Track the performance of your VR apps and gain insights into user behavior.",
+        title: "AI/ML",
+        description: `We develop custom AI/ML solutions that automate tasks, forecast trends, analyze data, and enhance communication, with expertise in fine-tuning models like Llama and seamless 
+            integration with existing systems to boost efficiency and decision-making.`,
     },
     {
-        title: "AI Assistance to reduce time",
-        description:
-            "Track the performance of your VR apps and gain insights into user behavior.",
+        title: "Cyber Security",
+        description: `We offer a comprehensive range of cybersecurity solutions designed to protect your business, detect potential threats, and ensure fast recovery in case of any incidents.`,
     },
     {
-        title: "Share work in minutes",
-        description:
-            "Track the performance of your VR apps and gain insights into user behavior.",
+        title: "Testing",
+        description: `We prioritize quality through a blend of automated and manual testing, using JMeter for API load testing, Selenium for browser automation, and thorough manual testing to ensure every product meets the highest standards.`,
     },
 ]
 

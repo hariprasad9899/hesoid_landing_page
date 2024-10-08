@@ -1,56 +1,26 @@
-import { resourcesLinks, platformLinks, communityLinks } from "../constants";
+import { resourcesLinks, platformLinks, communityLinks } from "../constants"
 const Footer = () => {
-  return (
-    <footer className="mt-20 border-t py-10 border-neutral-700">
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
-        <div>
-          <h3 className="text-md font-semibold mb-4">Resources</h3>
-          <ul className="space-y-2">
-            {resourcesLinks.map((link, index) => (
-              <li key={index}>
-                <a
-                  href={link.href}
-                  className="text-neutral-300 hover:text-white"
-                >
-                  {link.text}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h3 className="text-md font-semibold mb-4">Platform</h3>
-          <ul className="space-y-2">
-            {platformLinks.map((link, index) => (
-              <li key={index}>
-                <a
-                  href={link.href}
-                  className="text-neutral-300 hover:text-white"
-                >
-                  {link.text}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h3 className="text-md font-semibold mb-4">Community</h3>
-          <ul className="space-y-2">
-            {communityLinks.map((link, index) => (
-              <li key={index}>
-                <a
-                  href={link.href}
-                  className="text-neutral-300 hover:text-white"
-                >
-                  {link.text}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    </footer>
-  );
-};
+    return (
+        <footer className="mt-5 border-t py-10 border-neutral-700">
+            <h2 className="text-3xl sm:text-5xl text-blue-500 lg:text-6xl text-center my-5 lg:my-20">
+                Contact
+            </h2>
+            <section className="mt-5 bg-neutral-800 p-8 rounded-lg">
+                <p className="text-neutral-300 mb-4">
+                    We'd love to hear from you! For inquiries, please reach out
+                    to us at:{" "}
+                    <span>
+                        <a
+                            href="mailto:sales@hesoid.com"
+                            className="text-neutral-300 hover:text-white font-medium underline"
+                        >
+                            sales@hesoid.com
+                        </a>
+                    </span>
+                </p>
+            </section>
+        </footer>
+    )
+}
 
-export default Footer;
+export default Footer
