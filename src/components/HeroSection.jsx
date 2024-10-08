@@ -30,6 +30,7 @@ const HeroSection = () => {
                     autoPlay
                     loop
                     muted
+                    playsinline
                     className="rounded-lg w-1/2 border border-white-700 shadow-sm shadow-white-400 mx-2 my-4"
                 >
                     <source src={video4} type="video/mp4" />
@@ -39,6 +40,7 @@ const HeroSection = () => {
                     autoPlay
                     loop
                     muted
+                    playsinline
                     className="rounded-lg w-1/2 border border-white-700 shadow-sm shadow-white-400 mx-2 my-4"
                 >
                     <source src={video3} type="video/mp4" />
