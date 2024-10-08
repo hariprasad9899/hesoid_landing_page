@@ -12,8 +12,8 @@ const App = () => {
             <Navbar />
             <div className="max-w-7xl mx-auto pt-20 px-6">
                 <HeroSection />
-                <FeatureSection />
                 <Workflow />
+                <FeatureSection />
                 <Pricing />
                 <Testimonials />
                 <Footer />

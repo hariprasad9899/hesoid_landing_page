@@ -98,26 +98,24 @@ export const expertise = [
     },
 ]
 
-export const checklistItems = [
+export const servicesItems = [
     {
-        title: "Code merge made easy",
+        title: "Web Development",
         description:
-            "Track the performance of your VR apps and gain insights into user behavior.",
+            "Our web development expertise spans frontend, backend, UI/UX, database management, DevOps, and cloud solutions, enabling us to deliver fast, secure, and scalable applications from start to finish.",
     },
     {
-        title: "Review code without worry",
-        description:
-            "Track the performance of your VR apps and gain insights into user behavior.",
+        title: "AI/ML",
+        description: `We develop custom AI/ML solutions that automate tasks, forecast trends, analyze data, and enhance communication, with expertise in fine-tuning models like Llama and seamless 
+            integration with existing systems to boost efficiency and decision-making.`,
     },
     {
-        title: "AI Assistance to reduce time",
-        description:
-            "Track the performance of your VR apps and gain insights into user behavior.",
+        title: "Cyber Security",
+        description: `We offer a comprehensive range of cybersecurity solutions designed to protect your business, detect potential threats, and ensure fast recovery in case of any incidents.`,
     },
     {
-        title: "Share work in minutes",
-        description:
-            "Track the performance of your VR apps and gain insights into user behavior.",
+        title: "Testing",
+        description: `We prioritize quality through a blend of automated and manual testing, using JMeter for API load testing, Selenium for browser automation, and thorough manual testing to ensure every product meets the highest standards.`,
     },
 ]
 
