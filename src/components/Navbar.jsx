@@ -15,8 +15,8 @@ const Navbar = () => {
             <div className="container px-4 mx-auto relative lg:text-sm">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
-                        <img className="h-10 w-10 mr-2" src={logo} alt="Logo" />
-                        <span className="text-xl tracking-tight">
+                        {/* <img className="h-10 w-10 mr-2" src={logo} alt="Logo" /> */}
+                        <span className="text-xl font-bold bg-gradient-to-r from-blue-500 to-red-800 text-transparent bg-clip-text">
                             HESOID TECHNOLOGIES
                         </span>
                     </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
                         </a>
                         <a
                             href="#"
-                            className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+                            className="bg-gradient-to-r from-blue-500 to-blue-800 py-2 px-3 rounded-md"
                         >
                             Create an account
                         </a>
@@ -59,7 +59,7 @@ const Navbar = () => {
                             </a>
                             <a
                                 href="#"
-                                className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800"
+                                className="py-2 px-3 rounded-md bg-gradient-to-r from-blue-500 to-blue-800"
                             >
                                 Create an account
                             </a>
