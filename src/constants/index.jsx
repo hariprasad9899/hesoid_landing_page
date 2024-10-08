@@ -1,9 +1,9 @@
-import { BotMessageSquare } from "lucide-react"
-import { BatteryCharging } from "lucide-react"
-import { Fingerprint } from "lucide-react"
+import { Code, PlugZap } from "lucide-react"
 import { ShieldHalf } from "lucide-react"
-import { PlugZap } from "lucide-react"
+import { Cpu } from "lucide-react"
 import { GlobeLock } from "lucide-react"
+import { AppWindow } from "lucide-react"
+import { Workflow } from "lucide-react"
 
 import user1 from "../assets/profile-pictures/user1.jpg"
 import user2 from "../assets/profile-pictures/user2.jpg"
@@ -14,7 +14,7 @@ import user6 from "../assets/profile-pictures/user6.jpg"
 
 export const navItems = [
     { label: "Our Services", href: "#" },
-    { label: "Workflow", href: "#" },
+    { label: "Expertise", href: "#" },
     { label: "Testimonials", href: "#" },
     { label: "Vision & Misson", href: "#" },
     { label: "About us", href: "#" },
@@ -59,42 +59,42 @@ export const testimonials = [
     },
 ]
 
-export const features = [
+export const expertise = [
     {
-        icon: <BotMessageSquare />,
-        text: "Drag-and-Drop Interface",
+        icon: <Code />,
+        text: "Large-scale product codebases",
         description:
-            "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
-    },
-    {
-        icon: <Fingerprint />,
-        text: "Multi-Platform Compatibility",
-        description:
-            "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
-    },
-    {
-        icon: <ShieldHalf />,
-        text: "Built-in Templates",
-        description:
-            "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
-    },
-    {
-        icon: <BatteryCharging />,
-        text: "Real-Time Preview",
-        description:
-            "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
-    },
-    {
-        icon: <PlugZap />,
-        text: "Collaboration Tools",
-        description:
-            "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+            "We have extensive experience handling complex, large-scale product codebases efficiently",
     },
     {
         icon: <GlobeLock />,
-        text: "Analytics Dashboard",
+        text: "High-security web applications",
         description:
-            "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+            "Our team specializes in building highly secure web applications, with strong authentication and authorization measures",
+    },
+    {
+        icon: <ShieldHalf />,
+        text: "Developing secure, compliant applications",
+        description:
+            "We build applications with top-tier security while adhering to HIPAA compliance standards.",
+    },
+    {
+        icon: <Cpu />,
+        text: "Full-stack deployment",
+        description: `Our team can deploy full-stack applications—Frontend (React) and Backend (Spring Boot,Django, Node.js)—on major cloud platforms like AWS, Azure, and GCP, 
+        while maintaining consistent CI/CD pipelines and also with docker containers. `,
+    },
+    {
+        icon: <AppWindow />,
+        text: "Healthcare and E-commerce",
+        description:
+            "We have proven expertise in developing both healthcare and E-commerce applications.",
+    },
+    {
+        icon: <Workflow />,
+        text: "Agile Development Methodology",
+        description:
+            "We excel in utilizing Agile development methodologies, ensuring adaptability and continuous delivery through regular sprints and client feedback.",
     },
 ]
 
