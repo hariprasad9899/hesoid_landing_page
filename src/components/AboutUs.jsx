@@ -1,6 +1,6 @@
 export function AboutUs() {
     return (
-        <div className="mt-10 border-t py-10 border-neutral-700">
+        <div className="mt-10 border-t py-10 border-neutral-700" id="aboutus">
             <h2 className="text-3xl sm:text-5xl text-blue-500 lg:text-6xl text-center my-5 lg:my-20">
                 About Us
             </h2>
@@ -22,7 +22,10 @@ export function AboutUs() {
                 </p>
 
                 {/* Subheading for Contact */}
-                <h3 className="text-xl sm:text-2xl text-blue-500 mt-10 mb-4">
+                <h3
+                    className="text-xl sm:text-2xl text-blue-500 mt-10 mb-4"
+                    id="contact"
+                >
                     Contact
                 </h3>
                 <p className="text-neutral-300 mb-4">

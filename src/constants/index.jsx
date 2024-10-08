@@ -7,11 +7,11 @@ import { Workflow } from "lucide-react"
 import stanislav from "../assets/profile-pictures/stanislav.jpg"
 
 export const navItems = [
-    { label: "Our Services", href: "#" },
-    { label: "Expertise", href: "#" },
-    { label: "Testimonials", href: "#" },
-    { label: "About us", href: "#" },
-    { label: "Contact", href: "#" },
+    { label: "Services", href: "#services" },
+    { label: "Expertise", href: "#expertise" },
+    { label: "Testimonials", href: "#testimonials" },
+    { label: "About us", href: "#aboutus" },
+    { label: "Contact", href: "#contact" },
 ]
 
 export const testimonials = [
