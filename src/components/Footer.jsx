@@ -2,7 +2,7 @@ import { resourcesLinks, platformLinks, communityLinks } from "../constants"
 const Footer = () => {
     return (
         <footer className="mt-5 border-t py-10 border-neutral-700">
-            <h2 className="text-3xl sm:text-5xl text-blue-500 lg:text-6xl text-center my-10 lg:my-20">
+            <h2 className="text-3xl sm:text-5xl text-blue-500 lg:text-6xl text-center my-5 lg:my-20">
                 Contact
             </h2>
             <section className="mt-5 bg-neutral-800 p-8 rounded-lg">

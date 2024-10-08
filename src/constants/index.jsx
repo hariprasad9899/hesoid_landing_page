@@ -10,8 +10,8 @@ export const navItems = [
     { label: "Our Services", href: "#" },
     { label: "Expertise", href: "#" },
     { label: "Testimonials", href: "#" },
-    { label: "Vision & Misson", href: "#" },
     { label: "About us", href: "#" },
+    { label: "Contact", href: "#" },
 ]
 
 export const testimonials = [
