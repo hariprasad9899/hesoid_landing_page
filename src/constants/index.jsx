@@ -19,8 +19,8 @@ export const testimonials = [
         user: "Stanislav Skakun",
         company: "Founder, Biodata",
         image: stanislav,
-        text: `Hesoid delivered exceptional service, consistently meeting deadlines while providing innovative solutions to our most complex business challenges. Their team's professionalism and expertise 
-        have been instrumental in the success of our projects.`,
+        text: `As a startup, Biodata faces many challenges and uncertainties, and our focus is on strengthening our R&D efforts to allow for flexible scaling, depending on operational profits. Hesoid not only provides us with this flexibility but also consistently delivers high-quality work, demonstrating a deep understanding of our products. Over time, this partnership has made our development increasingly efficient.
+We highly recommend startup founders consider partnering with Hesoid for their projects.`,
     },
 ]
 
